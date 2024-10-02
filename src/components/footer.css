@@ -1,0 +1,47 @@
+.footer{
+    width: 100%;
+    padding: 6rem 0rem;
+    background-color: rgb(55, 21, 21);
+    color: white;
+}
+.f-container{
+    max-width: 1000px;
+    display: flex;
+    margin: auto;
+    gap: 10rem;
+}
+.f-right{
+    flex-basis: 60%;
+    margin-top: -6px;
+}
+.f-right p{
+    margin-top: 8px;
+    word-spacing: 3px;
+}
+.f-left{
+    flex-basis: 40%;
+    display: grid;
+    
+}
+.icon{
+    display: flex;
+}
+.social{
+    margin-top: 12px;
+    cursor: pointer;
+   
+}
+@media screen and (max-width:640px)  {
+    .f-container{
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .f-left .icon{
+        margin-bottom: 10px;
+    }
+}
+
+
+
